@@ -1,0 +1,10 @@
+a=int(input("Enter the first item cost: "))
+b=int(input("Enter the second item cost: "))
+c=int(input("Enter the third item cost: "))
+total=a+b+c
+dis=total*0.1
+if(total>50):
+  newTotal=(int)(total-dis)
+  print(newTotal)
+else:
+    print(total)
